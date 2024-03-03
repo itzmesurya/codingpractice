@@ -1,5 +1,8 @@
 # Two Sum with a sorted array - 2 pointer approach
-# This function iterates through the array with two pointers, one starting from the beginning and the other from the end. It adjusts the pointers based on the sum of the values at their current positions compared to the target value. If the sum is equal to the target, it adds the indexes to the result. If the sum is less than the target, it moves the left pointer to the right to increase the sum, and if the sum is greater than the target, it moves the right pointer to the left to decrease the sum.
+# This function iterates through the array with two pointers, one starting from the beginning and the other from the end. 
+# It adjusts the pointers based on the sum of the values at their current positions compared to the target value. If the sum is equal to the target, 
+# it adds the indexes to the result. If the sum is less than the target, it moves the left pointer to the right to increase the sum,
+# and if the sum is greater than the target, it moves the right pointer to the left to decrease the sum.
 
 def two_sum_sorted_array(arr, target):
     p1 = 0
